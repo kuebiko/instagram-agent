@@ -45,6 +45,7 @@ class InstagramAgent < Kuebiko::Agent
       pl.source    = SOURCE
       pl.source_id = media.id
 
+      pl.keywords  = media.tags
       pl.metadata  = media.to_h
     end
 
