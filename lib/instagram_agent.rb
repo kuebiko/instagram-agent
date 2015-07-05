@@ -17,8 +17,8 @@ class InstagramAgent < Kuebiko::Agent
     @timers = Timers::Group.new
 
     @last_id = nil
-    # Send credentials request and register callback
 
+    # Send credentials request and register callback
     puts "Subscribed to : #{agent_control_topics.join(', ')}"
 
     puts 'Requesting credentials now'
